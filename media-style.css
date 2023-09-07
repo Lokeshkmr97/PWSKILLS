@@ -1,0 +1,42 @@
+
+
+
+body{
+    background-color: antiquewhite;
+}
+
+div{
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after{
+    content: 'Welcome to the Demo';
+}
+
+/* syntax of media query */
+/* @media media_target media_feature and (media_feature:value){
+    style
+} */
+
+@media (min-width:900px){
+    /* 
+    if viewport is atleast 900px
+    then this style will apply
+    */
+    body{
+        background-color: aquamarine;
+    }
+
+}
+
+@media (min-width:700px){
+    /* 
+    if viewport is atleast 900px
+    then this style will apply
+    */
+    body{
+        background-color:blueviolet;
+    }
+
+}
