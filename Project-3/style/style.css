@@ -14,13 +14,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 31px 83px;
-    height: 94px;
+    height: 80px;
     background-color: #000;
   }
   
   .grow-list {
     flex-grow: 1;
-  }
+  } 
   
   img {
     width: 92px;
