@@ -1,0 +1,28 @@
+.container{
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+   
+}
+
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 16px;
+    margin: 16px;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: 600;
+    background-color: beige;
+    cursor: pointer;
+}
+
+h3{
+    border: 1px solid red;
+    padding: 16px;
+    border-radius: 20px;
+    font-size:25px;
+}
