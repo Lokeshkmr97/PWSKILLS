@@ -1,0 +1,77 @@
+git --version ==> (print the version of git software) 
+
+git config ==> (print the configuration about git ---- or print all command related to git)
+
+git config --get user.name  ==> (print user name)
+
+git config --get user.email  ==> (print user email Id)
+
+===========================================================
+
+git init (initilize the git that means track the changing into the file.)
+
+git add fileName (add file with name in staging area)
+
+git add . (this command is used for add all file at a time in staging area) 
+
+git add * (add all new ,modified,and deleted files in the current directory)
+
+git status ( to show the status of tracking and untracking file)
+
+git commit -m "Commit Message" (ccommit file the file in staging area)
+
+
+===============================================================
+
+ .gitignore ==> inside this file we can not push in github.
+
+================================================================
+
+Branch in Git 
+=============
+in git, a branch is a separate line of development that allows you to work on a project without affecting
+the main branch ( usually called master branch). A branch is essentially a pointer to specific commit in the repository's history.
+
+================================================================
+
+git branch ( show the branch name)
+
+git branch branchName (Creating Brach Name)
+
+git checkout branchName (change the branch Name)
+
+git checkout -b branchName ( It is used for creating branch as well as change branch)
+
+=================================================================
+
+Merging Branch 
+===============
+git merge branchName
+
+================================================================================================================
+================================================================================================================
+
+								A Step-by-step guide to uploading your project to Github
+
+================================================================================================================
+================================================================================================================
+
+git init
+
+git add .
+
+git commit -m "commit Message"
+
+git remote add origin repo's url
+
+git push -u origin master.
+
+=================================================================================================================
+
+
+
+
+
+
+
+
