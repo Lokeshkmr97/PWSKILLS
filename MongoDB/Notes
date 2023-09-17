@@ -1,0 +1,38 @@
+To show all Databses
+======================
+show databses; or show dbs;
+
+How to select a particular db
+==============================
+use databseName;
+
+collections means RDBMS Tables
+
+one record is called as Document in mongodb
+
+A Document is nothing but a JSON object. A JSON has multiple key-value pair data.
+
+To show collections
+====================
+show collections;
+
+How to print all the document 
+=============================
+
+db.collection_name.find()
+
+How to make Databases in MongoDB
+====================================
+
+use databse_name;
+
+how to make collection in MongoDb;
+==================================
+db.createCollection("collectionName");
+
+How to add document into the collections;(Record)
+=================================================
+db.collection_name.insertOne({key:"Value".....})
+
+db.collection_name.insertMany([{key:Value....},{key:value....}...])
+
