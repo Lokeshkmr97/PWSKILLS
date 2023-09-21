@@ -1,0 +1,48 @@
+<!-- Que. 1) Create an image gallery that holds multiple images. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        /* Style for the image gallery */
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+            gap: 20px;
+        }
+
+        /* Style for individual images */
+        .image-gallery img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+
+    <div class="image-gallery">
+        <div>
+            <img src="./image/logopw.jpg" alt="Image 1">
+            <p>Image 1 Description</p>
+        </div>
+        <div>
+            <img src="./image/HiteshSir.png" alt="Image 2">
+            <p>Image 2 Description</p>
+        </div>
+        <div>
+            <img src="./image/pwsir.jpg" alt="Image 3">
+            <p>Image 3 Description</p>
+        </div>
+       
+    </div>
+</body>
+</html>
+
