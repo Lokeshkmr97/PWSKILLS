@@ -1,0 +1,155 @@
+Que. 1) List out the Features of HTML 5
+=========================================
+Ans. Semantic Elements.
+     Audio and Video Support.
+     Canvas Elements.
+     Geolocation API.
+     Local Storage.
+     Responsive Images.
+     Web Workers.
+     Drag and Drop API.
+
+Que. 2) What are HTML Entities ? List out 5 Commonly used HTML entities
+========================================================================
+Ans. Reserved characters in HTML must be replaced with character entities.
+
+Commonly used Entities are : $nbsp , &copy , &reg , &lt, &gt.
+
+Que. 3) Define accessibility in the context of web development. Discuss why it's essential to create accessible website and how it      
+        benefits different user groups.
+====================================================================================================================================
+Ans. Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can   
+     use  them. More specifically, people can:
+     perceive, understand, navigate, and interact with the Web
+     contribute to the Web
+     Web accessibility encompasses all disabilities that affect access to the Web, including:
+     auditory
+     cognitive
+     neurological
+     physical
+     speech
+     visual
+     Web accessibility also benefits people without disabilities, for example:
+    people using mobile phones, smart watches, smart TVs, and other devices with small screens, different input modes, etc.
+    older people with changing abilities due to ageing
+
+Que. 4) List any 3 ways which help us in improving the accessibility of HTML.
+==============================================================================
+Ans. As you learn more about HTML — read more resources, look at more examples, etc. — you'll keep seeing a common theme: the importance of using semantic HTML (sometimes called POSH, or Plain Old Semantic HTML). This means using the correct HTML elements for their intended purpose as much as possible.
+
+You might wonder why this is so important. After all, you can use a combination of CSS and JavaScript to make just about any HTML element behave in whatever way you want. For example, a control button to play a video on your site could be marked
+
+Que. 5) Create a web page that highlights the features of HTML5. Use appropriate semantic tags to structure the content and showcase at 
+        least three key features of HTML5 with explanations.
+========================================================================================================================================
+
+Creating a complete web page is beyond the scope of this text-based platform, but I can provide you with a simplified HTML5 code snippet that highlights three key features of HTML5 with explanations. You can use this as a starting point and expand upon it to create a full web page.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Features</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to HTML5 Features</h1>
+    </header>
+
+    <section>
+        <h2>1. Semantic Tags</h2>
+        <p>HTML5 introduced semantic tags that provide better structure and meaning to web content. Some of the key semantic tags include:</p>
+        <ul>
+            <li><code>&lt;header&gt;</code>: Defines a header for a section or a page.</li>
+            <li><code>&lt;nav&gt;</code>: Represents a navigation menu.</li>
+            <li><code>&lt;article&gt;</code>: Represents a self-contained composition in a document.</li>
+            <li><code>&lt;footer&gt;</code>: Defines a footer for a section or a page.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>2. Audio and Video Support</h2>
+        <p>HTML5 provides native support for embedding audio and video content without the need for third-party plugins. You can use the <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> elements to include multimedia in your web pages.</p>
+    </section>
+
+    <section>
+        <h2>3. Local Storage</h2>
+        <p>HTML5 introduced the <code>localStorage</code> and <code>sessionStorage</code> APIs, allowing web applications to store data locally on the user's device. This feature enables offline access and faster load times for web apps.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 HTML5 Features</p>
+    </footer>
+</body>
+</html>
+
+In this code:
+
+The <header> element is used to define the page's header.
+Two <section> elements are used to organize content into sections, each with a heading (<h2>) and an explanation of the HTML5 feature.
+The first feature, "Semantic Tags," is explained, highlighting the importance of semantic tags like <header>, <nav>, <article>, and <footer>.
+The second feature, "Audio and Video Support," is introduced, mentioning the <audio> and <video> elements.
+The third feature, "Local Storage," is explained, mentioning the localStorage and sessionStorage APIs for storing data locally.
+Finally, a <footer> element is used to define the page's footer.
+You can enhance and style this code further to create a complete web page that showcases the features of HTML5.
+
+
+Que. 6) Create a simple web page which has a table. The table must have 2 columns HTML and HTML5. The table should include a minimum of three rows describing the 
+        difference between HTML and HTML 5.
+==================================================================================================================================================================
+Here's a simple HTML web page that includes a table with two columns, "HTML" and "HTML5," and provides a minimum of three rows describing the differences between HTML and HTML5:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML vs HTML5</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Differences between HTML and HTML5</h1>
+    <table>
+        <tr>
+            <th>HTML</th>
+            <th>HTML5</th>
+        </tr>
+        <tr>
+            <td>HTML stands for HyperText Markup Language.</td>
+            <td>HTML5 stands for HyperText Markup Language version 5.</td>
+        </tr>
+        <tr>
+            <td>HTML4 was the previous version of HTML.</td>
+            <td>HTML5 is the latest and current version of HTML.</td>
+        </tr>
+        <tr>
+            <td>HTML4 had limited support for multimedia and interactive elements.</td>
+            <td>HTML5 introduced native support for audio, video, and canvas elements, making it suitable for multimedia-rich web applications.</td>
+        </tr>
+       
+    </table>
+</body>
+</html>
+
+In this code:
+
+We create a table with two columns using the <table>, <tr>, <th>, and <td> HTML elements.
+CSS is used to style the table, making it visually appealing.
+Three rows are provided to describe key differences between HTML and HTML5. You can add more rows with additional differences if needed.
