@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Naming Convention</title>
+
+    <!-- Internal Css -->
+    <style>
+        .container{
+            width: 50%;
+            margin: auto;
+            border: 2px solid rebeccapurple;
+            padding: 5px;
+        }
+        .container-para1{
+            background-color: rgb(234, 138, 12);
+            border: 1px solid red;
+            height: 200px;
+            color: rgb(255, 253, 253);
+            font-size:20px;
+            font-weight:700; 
+            padding: 10px;
+            overflow: auto;
+            text-align:justify;
+
+        }
+        .container-para2{
+            background-color: rgb(12, 234, 108);
+            border: 1px solid rgb(51, 0, 255);
+            height: auto;
+            color: rgb(19, 7, 240);
+            font-size:25px;
+            font-weight:500; 
+            padding: 10px;
+            overflow: auto;
+            text-align:justify;
+
+        }
+        .container-para3{
+            background-color: rgb(23, 12, 234);
+            border: 1px solid rgb(0, 255, 38);
+            height: 200px;
+            color: rgb(239, 239, 8);
+            font-size:30px;
+            font-weight:400; 
+            padding: 10px;
+            overflow: auto;
+            text-align:left;
+
+        }
+        .container-para4{
+            background-color: rgb(12, 190, 234);
+            border: 1px solid red;
+            height: 100px;
+            color: rgb(231, 14, 14);
+            font-size:25px;
+            font-weight:700; 
+            padding: 10px;
+            overflow: auto;
+            text-align:center;
+
+        }
+        .container-para5{
+            background-color: rgb(248, 9, 17);
+            border: 1px solid rgb(72, 0, 255);
+            height: 200px;
+            color: rgb(246, 240, 240);
+            font-size:25px;
+            font-weight:600; 
+            padding: 10px;
+            overflow: auto;
+            text-align:start;
+
+        }
+        .list{
+            text-align: center;
+            border: 2px solid black;
+            width: 50%;
+            margin: auto;
+        }
+        li{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="list">
+        <h1 style="text-align: center;">Implementation of BEM Convention</h1>
+        <ol>
+            <li><b>Block :</b> which holds everything (elements) inside and acts as a scope.</li>
+            <li><b>Element :</b> which acts as a specific part of the component.</li>
+            <li><b>Modifier :</b> which adds additional styles to a specific element(s).</li>
+        </ol>
+    </div>
+    <div class="container">
+        <h1>This is Paragraph -1</h1>
+        <p class="container-para1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, neque saepe laborum maiores sapiente deserunt aspernatur excepturi deleniti nihil quas a perferendis, quo, facilis harum laudantium totam nobis debitis. Neque.
+            Quo odio odit inventore eaque sapiente! Officiis quam rem laborum quisquam ullam non ut impedit eius in libero adipisci explicabo nobis distinctio numquam quidem quod earum voluptas quasi, similique necessitatibus.
+            Labore iste placeat incidunt sapiente? Provident voluptatibus non architecto itaque tempore excepturi exercitationem facilis assumenda, suscipit voluptatem illum harum in officia cumque quasi maxime. Minima quidem labore eaque reprehenderit velit!
+            Molestiae repudiandae quam praesentium doloribus voluptates eveniet harum reiciendis, labore fugiat laborum natus asperiores eum! Repudiandae corrupti dolores voluptatibus impedit distinctio iusto exercitationem quos labore! Ab laboriosam nulla tenetur officiis?
+            Aut sint ducimus nihil animi dicta amet illo perferendis rerum, voluptates quo delectus. Nobis earum iste inventore qui, iure totam excepturi illo, aperiam veritatis ratione porro tenetur. Pariatur, placeat culpa.
+        </p>
+        <h1>This is Paragraph -2</h1>
+        <p class="container-para2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat odit velit animi beatae tempore hic expedita aperiam eaque saepe possimus commodi libero, blanditiis totam alias incidunt consequatur praesentium ipsa voluptatum!
+            Expedita ipsam cumque mollitia, dolore non tempore voluptatem explicabo praesentium perferendis in ratione. Ab fuga eaque laudantium, ut, optio cupiditate quasi repudiandae voluptatibus voluptates quaerat sapiente, sint et quisquam quidem!
+        </p>
+        <h1>This is Paragraph -3</h1>
+        <p class="container-para3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa sequi tempora, officia quod alias minus facere nihil dolores accusantium temporibus distinctio id libero dicta voluptatibus sint atque molestiae deserunt iure.
+            Libero voluptatibus iusto unde? Laboriosam, dolor quidem perferendis nisi rem adipisci hic nulla sapiente quos nostrum eius soluta dolore nesciunt provident aliquam facilis, cumque cupiditate voluptatibus eligendi quam, distinctio aspernatur.
+            Eaque qui dicta provident. Nulla molestias doloremque inventore nemo! Dolore voluptatem, sequi mollitia culpa unde maiores harum nihil ullam magnam eligendi deleniti obcaecati fuga, beatae omnis soluta aperiam numquam nesciunt.
+        </p>
+        <h1>This is Paragraph -4</h1>
+        <p class="container-para4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, eligendi. Alias enim inventore adipisci rem velit voluptates deserunt nisi! Iure consectetur repudiandae voluptate consequatur, suscipit beatae vel excepturi sed quibusdam.
+        </p>
+        <h1>This is Paragraph -5</h1>
+        <p class="container-para5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio incidunt nihil sequi nesciunt adipisci, at temporibus, autem mollitia rem illo vero architecto inventore accusantium aliquam modi recusandae fugit consequatur consectetur.
+            Reprehenderit veritatis officiis natus totam distinctio hic itaque, debitis, sit delectus commodi architecto accusamus fugiat possimus rem. Ipsum, minus impedit aspernatur, aperiam, soluta ut similique molestias beatae quidem ratione error.
+        </p>
+    </div>
+</body>
+</html>

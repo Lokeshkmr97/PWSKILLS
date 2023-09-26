@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Ways to use Css</title>
+    <!-- This is use for linking of external Css -->
+    <link rel="stylesheet" href="./style.css"> 
+
+    <!-- internal Css -->
+    <style>
+            .container{
+                border: 2px solid black;
+                width: 500px;
+                height: 300px;
+                background-color: yellow;
+                display: flex;
+                gap: 25px;
+                text-align: center;
+                align-items: center;
+            }
+            .box1{
+                border: 2px solid red;
+                width: 100px;
+                background-color: aqua;
+                color: black;
+            }
+            .box2{
+                border: 2px solid red;
+                width: 100px;
+                background-color: palevioletred;
+                color: rgb(131, 127, 255);
+            }
+            .box3{
+                border: 2px solid red;
+                width: 100px;
+                background-color: rgb(140, 255, 0);
+                color: rgb(239, 97, 15);
+            }
+            .box4{
+                border: 2px solid red;
+                width: 100px;
+                background-color: rgb(43, 0, 255);
+                color: aliceblue;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Here h1 tag use inline css for change the text color -->
+        <div class="box1"><h1 style="color: brown;">This is box1</h1></div>
+        <div class="box2"><h1 style="color: rgb(7, 11, 236);">This is box2</h1></div>
+        <div class="box3"><h1 style="color: rgb(16, 15, 15);">This is box3</h1></div>
+        <div class="box4"><h1 style="color: rgb(200, 171, 171);">This is box4</h1></div>
+    </div>
+
+    <!-- If when we target the same element with inline , internal and external css then 
+         use css as a priority in this sequence (inline > internal > External) -->
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Form</title>
+    <style>
+        /* Custom Color Palette */
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #e74c3c;
+            --background-color: #f2f2f2;
+            --field-background: #ffffff;
+        }
+
+        /* Body Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Form Styles */
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.9); /* Apply opacity */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            width: 50%;
+            margin: auto;
+        }
+
+        /* Input Styles */
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 5px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: var(--field-background);
+        }
+
+        /* Button Styles */
+        input[type="submit"] {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Button Hover Effect */
+        input[type="submit"]:hover {
+            background-color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2 style="text-align: center;">Student Info. Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="fname">Father's Name:</label>
+            <input type="text" id="fname" name="fname" required>
+            <label for="mname">Mother's Name:</label>
+            <input type="text" id="mname" name="mname" required>
+            <label for="mob">Mobile No.</label>
+            <input type="tel" id="mob" name="mob" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="">select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="address">Address</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
