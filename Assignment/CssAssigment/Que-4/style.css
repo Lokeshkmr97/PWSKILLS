@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+}
+
+.image-box{
+    width: 300px;
+    height: 100%;
+    margin: auto;
+}
+
+img{
+    border-radius: 50%;
+}

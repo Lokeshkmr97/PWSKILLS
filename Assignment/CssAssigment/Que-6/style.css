@@ -1,0 +1,31 @@
+.container{
+    width: 1000px;
+    margin: auto;
+    border: 2px solid black;
+    
+}
+.heading{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    width:100%;
+    margin: auto;
+    text-align: center;
+}
+.para{
+    padding:20px 24px 15px 24px;
+    font-size:medium;
+    font-family: sans-serif;
+}
+
+.image-box{
+    width: 100%;
+}
+img{
+    width: 960px;
+    padding-top: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}

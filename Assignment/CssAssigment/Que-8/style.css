@@ -1,0 +1,17 @@
+.container
+{
+    width: 1000px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+h1{
+    padding: 10px 0px 10px 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+li{
+    list-style-type:lower-roman;
+    font-size: 20px;
+    font-weight:500;
+}

@@ -1,0 +1,36 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(95, 95, 226);
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding:15px
+}
+
+li a{
+    color: aliceblue;
+    margin: 30px;
+}
+
+.link1{
+    border-style: dashed;
+}
+.link2{
+    border-style:none;
+}
+.link3{
+    border-style:solid;
+}
+.link4{
+    border-style:groove;
+}
+.link5{
+    border-style:double;
+}
+
+li a:hover{
+    color: red;
+}
