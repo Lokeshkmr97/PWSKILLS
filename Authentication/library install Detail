@@ -1,0 +1,9 @@
+1- express ==> it is used for creating server.
+2- cookie-parser ==>
+3- bcrypt ==>
+4- mongoose ==> it is used for getting connecting between database.
+5- jsonwebtoken ==>
+6- cors ==>
+7- email-validator ==>
+8- dotenv ==> it is used for access data from .env file 
+9- nodemon ==> it is used for real time update server.

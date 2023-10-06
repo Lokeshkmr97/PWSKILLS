@@ -20,6 +20,8 @@ git status ( to show the status of tracking and untracking file)
 
 git commit -m "Commit Message" (ccommit file the file in staging area)
 
+git push
+
 
 ===============================================================
 
