@@ -1,0 +1,30 @@
+table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    padding: 10px;
+
+}
+td{
+    text-align: justify;
+}
+table{
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+caption{
+    font-size: 30px;
+    font-weight: 900;
+}
+.conclusion{
+    border: 2px solid black;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+    line-height: 2;
+}
+.conclusion-container{
+    margin-top: 20px;
+}
