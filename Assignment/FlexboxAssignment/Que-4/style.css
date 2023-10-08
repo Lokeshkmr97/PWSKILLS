@@ -1,0 +1,238 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    width: 962px;
+    padding: 32px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background: #F4F2FD;
+    border: 1px solid black;
+    margin: auto;
+}
+.row{
+    display: flex;
+    width: 100%;
+    height: 100%;
+   
+}
+.card1{
+    display: flex;
+    width: 242px;
+    height: 363px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+}
+
+.card2{
+    display: flex;
+    width: 242px;
+    height: 363px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+}
+
+.card3{
+    display: flex;
+    width: 236px;
+    height: 361px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+}
+
+.card-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.card-content-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.header-name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.frame1{
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.heading-text
+{
+    color: #202842;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 100% */
+}
+
+.frame2{
+    display: flex;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.small-text{
+    color: #202842;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+}
+.price{
+    display: flex;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.price-text{
+    color: #202842;
+    font-family: Sans Serif Collection;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 100% */
+}
+
+.plan-detail{
+    display: flex;
+    padding-left: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.group1{
+    width: 95px;
+    height: 28px;
+}
+
+.check-mark1{
+    width: 22px;
+    height: 22px;
+    background-image:url("./check-mark1.png") ;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.text1{
+    color: #202842;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+}
+.group2{
+    width: 134px;
+    height: 28px;
+}
+.group3{
+    width: 190px;
+    height: 28px;
+}
+.group4{
+    width: 107px;
+    height: 28px;
+}
+
+.card3-group1{
+        width: 156px;
+        height: 28px;    
+}
+
+.card3-group2{
+    width: 195px;
+    height: 28px;    
+}
+
+.card3-group3{
+    width: 190px;
+    height: 28px;    
+}
+
+.card3-group4{
+    width: 156px;
+    height: 28px;    
+}
+
+.frame6{
+    display: inline-flex;
+    padding: 3px 4px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.frame7{
+    display: inline-flex;
+    padding: 8px 8px 4px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.subscribe-button{
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #202842;
+}
+.subscribe-button span{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 137.5% */
+}
