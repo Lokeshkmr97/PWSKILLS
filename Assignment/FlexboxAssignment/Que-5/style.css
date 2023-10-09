@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    display: flex;
+    width: 1469px;
+    height: 1143;
+    margin: auto;
+    justify-content: center;
+}
+.left-side{
+    width: 50%;
+    height: 100%;
+}
+
+.navbar{
+    width: 90%;
+    height: 11%;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.logo{
+    width: 30%;
+    display: flex;
+}
+
+.logo1{
+    width: 50%;
+    margin-left: 20px;
+}
+.logo2{
+    width: 50%;
+    margin-left: 15px;
+}
+
+.menubar{
+    width: 70%;
+    height: 100%;
+}
+
+.menu{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding: 15px;
+    justify-content: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    margin: 15px;
+    cursor: pointer;
+}
+.button-menu{
+    width: 70%;
+    height: 50%;
+    float: right;
+    padding: 10px;
+}
+.button-login{
+    padding: 4px;
+    width: 60px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color:#FB792B;
+    color: white;
+    border-color: #FB792B;
+    border-radius: 5.069px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.button-reg{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5.069px;
+    border: 1.014px solid rgba(51, 51, 51, 0.20);
+    background: var(--FFFFFF, #FFF);
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+.header-title-section{
+    width: 100%;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+h1{
+    color: var(--333333, #333);
+    font-family: 'Inter', sans-serif;
+    font-size: 48.667px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 40px;
+}
+.text-word{
+    font-family: 'Inter', sans-serif;
+    font-size: 32.444px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.safety{
+    color: var(--01BB0A, #01BB0A);
+}
+.security{
+    color: var(--FB792B, #FB792B);
+}
+.punctuality{
+    color: var(--213D77, #213D77);
+}
+.button-section{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-button{   
+    padding: 10px;    
+    border-radius: 5.069px;
+    height: 50%;
+    background: var(--213D77, #213D77);
+    color: var(--FFFFFF, #FFF);
+    font-size: 18.25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    cursor: pointer;
+}
+.book-button span{
+    margin-top:3%;
+}
+.book-button svg{
+    height: 100%;
+}
+
+.pnr-button{
+    display: flex;
+    padding: 10.139px 15.208px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.139px;
+    cursor: pointer;
+    border-radius: 5.069px;
+    border: 1.014px solid rgba(51, 51, 51, 0.50);
+    background: var(--FFFFFF, #FFF);
+    margin-left: 20px;
+}
+.chart-button{
+    display: flex;
+    padding: 10.139px 15.208px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.139px;
+    border-radius: 5.069px;
+    border: 1.014px solid rgba(51, 51, 51, 0.50);
+    background: var(--FFFFFF, #FFF);
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* Search Train 1 */
+.search-train1{
+    width: 618.472px;
+    height: 116.597px;
+    flex-shrink: 0;
+    border-radius: 10.139px;
+    border: 1.014px solid rgba(51, 51, 51, 0.10);
+    background: var(--FFFFFF, #FFF);
+    margin-left: 60px;
+    margin-top: 20px;
+    display: flex
+}
+.left-side-search{
+    width: 40%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.middle-side-search{
+    width: 20%;
+    height: 100%;
+}
+.right-side-search{
+    width: 40%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.text-direction{
+    color: var(--333333, #333);
+    font-size: 15.208px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.8;
+    margin-left: 36px;
+    display: flex;
+    margin-top: 7px
+}
+.text-box-big{
+    color: var(--333333, #333);
+    font-family: Inter;
+    font-size: 25.347px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+}
+.text-box-small{
+    color: var(--333333, #333);
+    font-family: Inter;
+    font-size: 15.208px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 36px;
+
+    opacity: 0.8;
+}
+.middle-side-search svg{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+/* Search train 2 */
+
+.left-search-train2{
+    width: 35%;
+    height: 100%;
+}
+.date-icon{
+    color: var(--333333, #333);
+    font-size: 15.208px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.8;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.text-date{
+    color: var(--333333, #333);
+    font-size: 25.347px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 55px;
+}
+.day{
+    color: var(--333333, #333);
+    font-family: Inter;
+    font-size: 15.208px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.8;
+    margin-left: 55px;
+}
+.date-icon span{
+    margin-top:8px;
+    margin-left: 4px;
+}
+.svg-arrow{
+    margin-top: 6px;
+}
+.middle-search-train2{
+    width: 30%;
+    height: 100%;
+}
+.right-search-train2{
+    width: 35%;
+    height: 100%;
+}
+
+
+
+
+
+
+.search-train-button{
+    width: 618.472px;
+    height: 81.111px;
+    margin-left: 60px;
+    margin-top: 45px;
+    flex-shrink: 0;
+    border-radius: 10.139px;
+    background: var(--01BB0A, #01BB0A);
+    display: flex;
+    cursor: pointer;
+}
+
+.text-search{
+    margin-top: 20px;
+    color: #FFF;
+    text-align: center;
+    font-size: 25.347px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 200px;
+}
+.search-train-button svg{
+    margin: 25px 0px 0px 10px;
+}
+
+.right-side{
+    width: 50%;
+    height: 100%;
+    margin-top: 7px;
+}
