@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: grid;
+    padding: 4rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    /* when we use px in unit then it is fixed so we used fractional unit in grid system */
+    /* grid-template-rows:100px 100px;          /* Here we define no. of row */
+    /*grid-template-columns: 100px 100px 100px 100px;      /* Here we define no. of Columns  (100px means 1 column)*/
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+
+}
+
+.items{
+    background-color: aquamarine;
+    border: 1px solid black;
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.header, .footer{
+    grid-column-start: 1;
+    grid-column-end:4;
+}
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.content1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
