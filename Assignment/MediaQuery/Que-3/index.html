@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background-color: rgb(26, 25, 25);
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li {
+            margin: 0 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #fcfafa;
+        }
+
+        /* Media query for adjusting the layout */
+        @media (max-width: 768px) {
+            .navbar {
+                background-color: grey;
+            }
+
+            .navbar ul {
+                flex-direction: column;
+            }
+
+            .navbar li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
