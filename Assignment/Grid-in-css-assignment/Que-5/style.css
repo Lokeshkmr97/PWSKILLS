@@ -1,0 +1,16 @@
+table,tr,td{
+    border: 1px solid black;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+}
+.container > div{
+    padding: 5px;
+    background-color: rgb(128, 241, 128);
+    border: 1px solid black;
+}
+
