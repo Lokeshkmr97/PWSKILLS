@@ -1,0 +1,39 @@
+/* Target the anchor tag */
+
+nav a{
+    color:red;
+}
+
+nav>h2{
+    color:red;
+    background-color: snow;
+}
+
+/*   */
+
+ul + p{
+    color: red;
+}
+
+/*  */
+
+a[class="active"]{
+    color: blue;
+    text-decoration: underline;
+}
+a[target="_self"]{
+    background-color: grey;
+}
+
+p:last-child::after{
+    content: "Hi this is Lokesh";
+}
+
+li::marker{
+    color: green;
+}
+
+p:nth-child(even)::first-letter{
+    color: red;
+    font-size: 30px;
+}

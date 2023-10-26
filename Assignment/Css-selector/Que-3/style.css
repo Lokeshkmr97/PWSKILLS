@@ -1,0 +1,7 @@
+#my-paragraph::before {
+    content: "Random word before ";
+  }
+  
+  #my-paragraph::after {
+    content: " after a random word.";
+  }

@@ -1,0 +1,16 @@
+/* use descendant combinator selector to remove list style billet */
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* use child comboinator to display the menu in inline  */
+ ul>li{
+    display: inline;
+ }
+
+ /* use Adjacent sibling combinator selector to apply some margin between the menu */
+ li+li{
+    margin: 10px;
+ }
