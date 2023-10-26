@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    perspective: 1000px; /* Add perspective to create 3D effect */
+}
+
+.cube {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d; /* Enable 3D transforms */
+    animation: rotate 5s infinite linear; /* Add rotation animation */
+}
+
+.face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.front  { 
+    transform: translateZ(100px);
+    background-color: red;
+ }
+
+.back   { 
+    transform: translateZ(-100px) rotateY(180deg);
+    background-color: aqua;
+ }
+
+.right  { 
+    transform: rotateY(90deg) translateZ(100px); 
+    background-color: yellow;
+}
+.left    { transform: rotateY(-90deg) translateZ(100px); }
+.top     { transform: rotateX(90deg) translateZ(100px); }
+.bottom  { transform: rotateX(-90deg) translateZ(100px); }
+
+@keyframes rotate {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+}
