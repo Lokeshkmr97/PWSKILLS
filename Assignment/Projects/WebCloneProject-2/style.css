@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.background-img{
+    background-image: url("./Assets/background-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.hero-section{
+    display: flex;
+}
+.hero-left{
+    width: 45%;
+}
+.hero-right{
+    width: 55%;
+}
+.hero-right img{
+    margin-top: 130px;
+}
