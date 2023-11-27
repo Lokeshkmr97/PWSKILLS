@@ -30,7 +30,7 @@ body{
 }
 .header-content{
     width: 80%;
-    padding: 15px;
+    padding: 10px;
 }
 .profile-image{
     width: 14%;
@@ -83,14 +83,13 @@ span a{
 }
 .left-hero-section{
     width: 49%;
-    border: 1px solid black;
     line-height: 2px;
     padding-left: 10px;
 }
 .right-hero-section{
     width: 49%;
-    border: 1px solid red;
     margin-left: 2%;
+    padding-left: 10px;
 }
 
 .heading-color{
@@ -110,3 +109,30 @@ span a{
 .cgpa{
     margin-left: 320px;
 }
+.percentage{
+    margin-left: 290px;
+}
+
+/* Project Start */
+.project1{
+    margin: 10px;
+}
+h3{
+    line-height: 30px;
+    margin: 0;
+}
+h1{
+    font-size: 1.7em;
+}
+/* Left Hero Section End */
+
+/* Right Hero Section Start */
+
+.checked {
+    color: orange;
+  }
+.certificates p{
+    color: #449297;
+}
+
+/* Right Hero section End */
