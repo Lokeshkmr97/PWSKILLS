@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- External Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Tailwind Css CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Quiz Application</title>
+</head>
+<body class="bg-gray-200">
+
+    <div class="question-container">
+        <h1 class="text-4xl font-bold mb-4 mt-1 text-center bg-green-500 p-4">Quiz Application</h1>
+        
+        <div id="question" class="ml-4 text-2xl text-yellow-300"></div>
+        <div id="options" class="mt-4 space-y-2 ml-4 text-white text-2xl"></div>
+        
+        <button id="next-btn" class="bg-blue-500 text-white py-2 px-4 mt-4 align-middle rounded ml-4">Next</button>
+        <div id="result" class="mt-4"></div>
+        
+        <button id="restart-btn" class="bg-gray-500 text-white py-2 px-4 mt-4 mb-4 ml-4 rounded hidden">Restart Quiz</button>
+        <div class="image">
+            <img src="./bg1.jpg" alt="" style="margin-left: 80px;">
+        </div>
+    </div>
+    
+
+    <script src="quiz.js"></script>
+</body>
+</html>

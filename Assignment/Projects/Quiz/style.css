@@ -1,0 +1,25 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(./bg2.avif);
+}
+.question-container {
+    max-width: 700px;
+    margin: 50px auto;
+}
+.option-btn {
+    cursor: pointer;
+}
+.correct {
+    background-color: #3bf33b; /* Green */
+}
+.incorrect {
+    background-color: #f92929; /* Red */
+}
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.image{
+    justify-content: center;
+    margin: auto;
+}
