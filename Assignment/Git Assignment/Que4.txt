@@ -1,0 +1,16 @@
+Q4. Briefly Explain what Github is and how it facilitates Collaboration and Version also name some alternatives to Github.
+===========================================================================================================================
+Ans. Github uses Git, a distributed version control system, to track changes to code.
+
+Github facilitates Collaboration and version control in the following ways : 
+-----------------------------------------------------------------------------
+a.) Version control - Github uses Git, a distributed version control system to track changes to code.
+
+b.) Branches and pull requests: - Github makes it easy for developers to create and manage branches of their code.
+
+Some of the platforms that provide the same functionality similar to Github can be 
+====================================================================================
+GitLab
+BitBucket
+Source Forge
+
