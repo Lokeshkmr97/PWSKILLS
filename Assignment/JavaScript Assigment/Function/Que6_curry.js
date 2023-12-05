@@ -23,8 +23,8 @@ function curry(func) {
   
   const curriedAdd = curry(add);
   
-  console.log(curriedAdd(2)(3)); // Output: undefined
-  console.log(curriedAdd(2, 3)); // Output: 5
-  console.log(curriedAdd(2)(3, 4)); // Output: 5
+  console.log(curriedAdd(2)(3)); 
+  console.log(curriedAdd(2, 3));  
+  console.log(curriedAdd(2)(3, 4)); 
   
   
