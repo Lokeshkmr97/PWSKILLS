@@ -1,0 +1,15 @@
+Que. - What is the purpose of declaring variable in javaScript, and how do you declare them using the keyword ?
+======================================================
+In JavaScript, variables are used to store and manage data in a program. They provide a way to name and reference values, making the code more readable, maintainable, and flexible. Declaring variables allows you to allocate memory for storing data and manipulate that data throughout the execution of a program.
+
+Purpose of Declaring Variables:
+
+Storage: Variables provide a means to store and remember values. This is essential for performing operations, calculations, and keeping track of information.
+
+Manipulation: Variables can be assigned new values, allowing you to update and manipulate data dynamically during the execution of a program.
+
+Readability: Using meaningful variable names makes code more readable and self-explanatory. It enhances the understanding of the code's purpose.
+
+Reuse: Variables allow you to reuse values throughout your code. Instead of hardcoding values, you can store them in variables, making it easier to update and maintain your code.
+
+Scope: Variables can have different scopes, allowing them to be accessed and modified within specific parts of a program. Understanding scope is crucial for managing data effectively.

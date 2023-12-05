@@ -1,0 +1,16 @@
+Que. - List and describe the five primitive datatype in javaScript.
+=======================================================================
+String:
+    The String type represents sequences of characters and is used for text. Strings are enclosed in single (' '), double (" "), or backtick ( ) 
+
+Number:
+    The Number type represents numeric values, including integers and floating-point numbers. JavaScript does not differentiate between integers and floats.
+
+Boolean:
+    The Boolean type represents logical values, true or false. It is often used for conditional statements and logical operations.
+
+Null:
+    The null type represents the intentional absence of any object value. It is a special value assigned to a variable when there is no meaningful value.
+
+Undefined:
+    The undefined type represents uninitialized variables or missing properties in objects. It is a default value assigned to variables that have been declared but not yet assigned a value.

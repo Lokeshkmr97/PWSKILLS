@@ -1,0 +1,23 @@
+Que. - Explain the importance of comments in javascript and provide examples of single-line and multi-line comments.
+=====================================================================================================================
+Comments in JavaScript serve as non-executable text within the code that provides additional information, explanations, or context for developers. 
+
+Single-Line Comments:
+
+Single-line comments start with // and extend to the end of the line. They are typically used for short comments or explanations on a single line.
+
+// let total =0;
+
+Multi-Line Comments:
+
+Multi-line comments begin with /* and end with */. They can span multiple lines and are often used for more extensive explanations or comments that cover several lines of code.
+
+/*
+  This function calculates the sum of two numbers.
+  It takes two parameters, num1 and num2.
+  Returns the sum of num1 and num2.
+*/
+function addNumbers(num1, num2) {
+    return num1 + num2;
+}
+
